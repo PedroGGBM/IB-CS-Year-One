@@ -1,20 +1,19 @@
 
-# with open('day_one_data.txt', 'r') as a_file:
+# Advent of Code --> Day One:
 
+with open('day_one_data.txt', 'r') as a_file:
 
-#     count = 0
-    
-#     counter = 0
-    
-#     for line in a_file:
+    count = 0
+    counter = 0
+    for line in a_file:
 
-#         stripped_line = int(line.strip())
-#         if stripped_line > counter:
-#             count += 1
+        stripped_line = int(line.strip())
+        if stripped_line > counter:
+            count += 1
 
-#         counter = int(stripped_line)
+        counter = int(stripped_line)
 
-# print(count)
+print(count)
 
 # second part
 
@@ -32,3 +31,5 @@ for i in range(len(lst)):
             count += 1
 
 print(count)
+
+
